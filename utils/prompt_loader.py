@@ -1,4 +1,4 @@
-from config_handler import prompts_conf
+from project.utils.config_handler import prompts_conf
 from project.utils.log_handler import logger
 from project.utils.path_tool import get_abs_path
 

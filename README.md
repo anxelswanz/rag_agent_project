@@ -1,6 +1,6 @@
 
 # 结构
-- configuration
+- ** configuration **
   - logger 日志层面
   - config_handler 配置文件读取
     - 获取rag
@@ -15,6 +15,18 @@
     - PyPDFLoader, TextLoader
   - prompt_loader
     - load_system_prompt
-    - 
+
+- ** rag **
+  - VectorStoreService
+    - __init__
+      - 配置chroma
+    - get_retriever
+    - load_document
+      - 校验MD5，文件是否重复添加
+      - 加载知识库
+  - RagSummarizeService
+    - 生成链
+    - 进行链调用
+
     
 

@@ -1,2 +1,5 @@
 chat_model_name: gemini-3-flash-preview
 embedding_model_name: gemini-embedding-001
+#chat_model_name: deepseek-chat
+#embedding_model_name: nomic-embed-text
+api_key: AIzaSyD9Dz8y7u3dAj1oVuicwUH1bQ5SulYy3fY

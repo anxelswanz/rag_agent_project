@@ -1,7 +1,7 @@
 import yaml
 
 from project.utils.path_tool import get_abs_path
-from log_handler import logger
+from project.utils.log_handler import logger
 
 
 def load_rag_config(config_path: str=get_abs_path("config/rag.yml"), encoding="utf-8"):
